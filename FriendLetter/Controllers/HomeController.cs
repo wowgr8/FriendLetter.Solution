@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using FriendLetter.Models;
+
 
 namespace FriendLetter.Controllers
 {
