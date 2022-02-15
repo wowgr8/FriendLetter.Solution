@@ -6,6 +6,8 @@
 
 #### _Friend Letter is an MVC web application that allows users to customize the sender and recipient name on a postcard through a nicely-formatted web interface._
 
+![](https://github.com/wowgr8/gifs-for-readmes/blob/main/friend-letters-gif/friend-letter-gif.gif)
+
 ## Technologies Used
 
 - C#
