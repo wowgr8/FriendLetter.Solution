@@ -25,7 +25,17 @@ namespace FriendLetter
 
     public void Configure(IApplicationBuilder app)
     {
+      app.UseRouting();
 
+      app.UseEndpoints(routes =>
+      {
+        routes.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+      });
+
+      app.Run(async (context) =>
+      {
+        await context.Response.WriteAsync("Hello World!");
+      });
     }
   }
 }
