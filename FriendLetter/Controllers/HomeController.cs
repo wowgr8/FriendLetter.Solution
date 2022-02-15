@@ -18,6 +18,7 @@ namespace FriendLetter.Controllers
       LetterVariable myLetterVariable = new LetterVariable();
       myLetterVariable.Recipient = "Lina";
       myLetterVariable.Sender = "Jasmine";
+      myLetterVariable.Location = "Santa's Village in the North Pole";
       return View(myLetterVariable);
     }
 
@@ -30,6 +31,7 @@ namespace FriendLetter.Controllers
       LetterVariable myLetterVariable = new LetterVariable();
       myLetterVariable.Recipient = recipient;
       myLetterVariable.Sender = sender;
+      myLetterVariable.Location = "Santa's Village in the North Pole";
       return View(myLetterVariable);
     }
 
